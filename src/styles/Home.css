@@ -1,0 +1,465 @@
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: whitesmoke;
+}
+h1{
+    font-family: 'poppins', sans-serif;
+}
+h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.cus-nav{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.logo {
+    padding: 26px;
+    background-color: white;
+}
+.login{
+    background-color: #58c7dc;
+        color: white;
+        border: none;
+}
+.Roger{
+    background-color: white;
+        color: black;
+        border: none;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+p{
+    font-size: 16px;
+}
+.navbar-custom {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.pill-container {
+    border: 1px solid #eeeeee;
+    padding: 0px 2px 0px 10px;
+}
+
+.register {
+    background-color: #414042;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+.navbar-brand {
+    margin-right: auto;
+}
+.search-icon {
+    margin-top: 8px;
+}
+
+.carousel-item {
+    position: relative;
+    transition: 3.1s ease;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-grey-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #142745;
+    font-family: 'poppins', sans-serif;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.carousel-item {
+    height: 100vh;
+    position: relative;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    padding: 0;
+    margin-bottom: 2rem;
+    margin-left: -60%;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 25px;
+    height: 8px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-clip: padding-box;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with transparency */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    padding: 20px; /* Adjust padding as needed */
+}
+.no-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    padding: 20px; /* Adjust padding as needed */
+}
+.last {
+    background-color: #142745;
+}
+.last img{
+        height: auto;
+        width: auto;
+        object-fit: cover;
+        filter: grayscale(0%);
+}
+.row{
+    /* margin-top: -350px; */
+}
+.darky{
+    background-color: #e6e7e8;
+}
+.smoke{
+    background-color: #e6e7e8 20%;
+}
+.high{
+    background-color: whitesmoke;
+}
+.text-container {
+    color: white;
+    width: 44%; /* Adjust width of text container */
+    padding-left: 30px; /* Move text further to the left */
+    text-align: left;
+    line-height: 1.4; 
+}
+
+.text-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem; /* Adjust font size */
+    margin-bottom: 20px; /* Space between text and button */
+    font-size: 52px;
+
+}
+
+.text-container .btn-light {
+    color: #000; /* Black text for button */
+    background-color: #fff; /* White background for button */
+    border-color: #fff; /* White border for button */
+}
+
+
+.text-adjust {
+    position: absolute;
+    top: 30%;  /* Adjust this value for vertical positioning */
+    left: 10%; /* Adjust this value for horizontal positioning */
+    transform: translate(-10%, -30%); /* Fine-tuning adjustment */
+}
+
+.grid-item {
+    transition: background-color 0.3s ease;
+    /* height: 463px; */
+    width: 367px;
+    padding-top: 20px;
+}
+.gap-slider{
+    gap: 20px;
+}
+
+.grid-item:hover {
+    /* background-color: white; */
+    border: none;
+}
+.mb-5{
+    margin-bottom: 3em !important ;
+}
+.cus-h5{
+    margin-top: 62px;
+    font-weight: 600;
+}
+.tx-sec{
+    width: 61.9%;
+    margin-bottom: 2em;
+    margin-top: 0;
+}
+
+.ban-hd{
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 67.5px;
+    text-align: center;
+}
+
+.icon i {
+    color: #000; /* Icon color */
+}
+
+.icon-circle {
+    width: 161px;
+    height: 161px;
+    background-color: #2e2e2e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 20px #BCBEC0;
+    margin-left: auto;
+        margin-right: auto;
+}
+.sp-ht-wd{
+    width: 52px;
+    height: 52px;
+}
+.icon-bg{
+    padding: 20px;
+    background-color: #58c7dc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 60px;
+    top: -53px;
+    left: 220px;
+}
+/*media write for this slide cont*/
+.slide-cont{
+    height: 572px ;
+    width: 1200px ;
+}
+
+.icon {
+   font-size: 36px;
+   color: #fff;
+}
+
+.icon-circle svg {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+
+
+  .icon-circle img {
+    width: 50%; /* Adjust icon size */
+    height: 50%;
+  }
+
+.rounded {
+    border-radius: var(--bs-border-radius)!important;
+    height: 300px;
+}
+.mt-6{
+    margin-top: 5rem !important;
+
+}
+
+.mt-7 {
+    margin-top: 30rem !important;
+}
+.ng-col {
+    top: 430px;
+    left: 221px;
+    z-index: 10;
+}
+
+.fw-bold {
+    font-weight: 300!important;
+}
+
+.row>* {
+    flex-shrink: 0;
+    /* width: 50%; */
+    /* max-width: 100%; */
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.dotted {
+    border-top: 3px dashed black;
+    margin: 15px 0;
+  }
+
+  .custom-1 {
+      width: 45px;
+      height: 106px;
+    }
+    .custom-2 {
+      width: 74px;
+      height: 107px;
+    }
+    .custom-3 {
+      width: 75px;
+      height: 109px;
+    }
+    .p-3 {
+        padding: 10rem!important;
+    }
+.footer {
+    background-color:#2e2e2e ;
+}
+
+
+@media (max-width:1000px) {
+    .cus-nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    .last img{
+        height: auto;
+        width: auto;
+        object-fit: cover;
+        filter: grayscale(0%);
+}
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        padding: 0;
+        margin-bottom: 1.5rem;
+        margin-left: -35%;
+    }
+    .ban-hd h1{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 400;
+        width: 35%;
+        line-height: 37.5px;
+        text-align: center;
+    }
+    .icon-circle {
+        width: 50px;
+        height: 50px;
+        background-color: #2e2e2e;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 0 10px #e0e0e0;
+        
+    }
+    .carousel-item {
+        padding: 0 15px; /* Adjust padding for better fit */
+    }
+    .carousel-item .col-md-4 {
+        flex: 0 0 100%; /* Make each column take full width */
+        max-width: 100%; /* Ensure columns are full width */
+        margin-bottom: 15px; /* Add space between items */
+    }
+    .carousel-item .bg-white {
+        height: auto; /* Adjust height to fit content */
+        padding: 20px; /* Add some padding */
+    }
+    .row>* {
+        flex-shrink: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+    
+}
+
+.slide {
+    overflow: hidden; /* Ensures that any overflow content is hidden */
+    width: 100%; /* Make the slide take the full width */
+}
+
+.d-flex {
+    display: flex; /* Set display to flex */
+    flex-wrap: nowrap; /* Prevent wrapping of flex items */
+    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+}
+
+.grid-item {
+    flex: 0 0 auto; /* Ensure grid items do not shrink or grow */
+    max-width: 100%; /* Set maximum width to 100% */
+    margin-right: 15px; /* Add some spacing between items */
+    position: relative; /* Set position relative for positioning content */
+}
+
+/* Custom styles for icon circle */
+.icon-circle {
+    /* background-color: cyan; */
+    border-radius: 50%;
+    padding: 10px;
+    /* display: inline-block; */
+    z-index: 10;
+    position: relative;
+}
+
+/* Adjust the margin-top of slide content */
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15%; /* Moves the content upwards */
+    z-index: 5; /* Lower z-index than icon circle to ensure it appears underneath */
+    position: relative; /* Position relative to maintain proper alignment */
+    background: white; /* Optional: background color to avoid overlap */
+    padding: 32px; /* Add some padding */
+    border-radius: 50px;
+    min-height: 380px;
+}
+

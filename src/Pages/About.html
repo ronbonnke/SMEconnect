@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About SME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/Home.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/About.css">
+
+
+    <style>
+        .slider-container {
+            overflow-x: auto;
+            padding: 40px 0;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+        .slider-wrapper {
+            display: flex;
+            width: fit-content;
+        }
+        .slide {
+            flex: 0 0 auto;
+            width: 100%;
+            scroll-snap-align: start;
+        }
+        .grid-item {
+            position: relative;
+            padding-top: 40px;
+            margin-bottom: 30px;
+        }
+        .icon-circle {
+            width: 60px;
+            height: 60px;
+            background-color: #f8f9fa;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .slide-content {
+            background-color: white;
+            border-radius: 25px;
+            padding: 30px 15px 15px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e0;
+        }
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .slider-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .slider-container {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        @media (max-width: 1000px) {
+            .slide-content {
+                height: auto;
+                min-height: 200px;
+            }
+        }
+    </style>
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom logo">
+        <div class="container-fluid cus-nav d-flex justify-content-between align-items-center p-0">
+            <a class="navbar-brand d-flex align-items-center" href="./Home.html">
+                <strong style="color:#58c7dc">SME</strong><span>CONNECT</span>
+            </a>
+            <a class="btn btn-sm" href="./About.html">About Us</a>
+            <div class="d-flex align-items-center rounded-pill pill-container">
+                <a class="btn btn-sm login rounded-pill" href="#">LOGIN</a>
+                <a class="btn btn-sm register rounded-pill" href="#">REGISTER NOW</a>
+                <a href="#" class="search-icon">
+                    <img src="../svg/search.svg" alt="Search">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <div>
+          <img src="../images/banner (1).png" alt="Banner Image" class="img-fluid w-100" />
+        </div>
+  
+      <div  name="first-container" class="container container-img mt-sm-1 mt-lg-5 mw-100 ml-nav " style="position: relative;">
+          <div
+            class="row w-100"
+          >
+          <div >
+            <img
+              id="second-container"
+              src="../images/Group 20.png"
+              alt="Left Image"
+              class="img-fluid position-absolute pos-avo"
+          />
+          </div>
+        </div>
+  
+        <div class="mo mol-ko">
+          <p class="pad pad-sm" style="line-height: 180%;">
+            <span class="m-0 fs-5 " style="font-weight: bolder;">Overview:</span>
+            SME Connect is a consolidated platform committed to the growth and success of SMEs. In addition to its ongoing initiatives, SME Connect’25 hosts a dynamic three-day event that runs parallel to Global Investors Meet 2025. The platform is specifically designed for SMEs, industry leaders and innovators aiming to discover new opportunities.
+            <br><br>
+
+It also addresses the key challenges faced by MSMEs, including market linkages, financial access, technological readiness and policy information.
+          </p>
+        </div>
+     </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="w-100 pt-40 fs-7 ht ml-nav" style="
+      font-family: 'Poppins', sans-serif;
+      ">
+        <div class="row mt-2 text-dark fw-bold   ht">
+          <div class="col-12">
+            <h2
+            class="font-weight-bold text-dark line-height-5 ht-con ht"
+              style="
+                font-family: 'Poppins', sans-serif;
+                color: #000;
+              "
+            >
+              Highlights
+            </h2>
+          </div>
+        </div>
+        <div class="highlight-container mt-sm-1 mt-lg-5 h-330 w-303">
+  
+  
+          <div class="highlight-card text-center">
+            <img class="img-fluid mx-auto mt-5 mb-3 w-50" 
+                 src="../svg/Frame 45.svg"
+                 alt="Highlight 1"
+                 style="max-width: 80%; height: auto;" />
+            <p class="mt-2 mb-5 text-dark font-weight-bold">Targeted matchmaking sessions</p>
+          </div>
+        
+          <div class="highlight-card text-center">
+            <img class="img-fluid mx-auto mt-5 mb-3 w-50"
+                 src="../svg/Frame 42.svg"
+                 alt="Highlight 2"
+                 style="max-width: 80%; height: auto;" />
+            <p class="mt-2 mb-5 text-dark font-weight-bold">Targeted matchmaking sessions</p>
+          </div>
+        
+          <div class="highlight-card text-center">
+            <img class="img-fluid mx-auto mt-5 mb-3 w-50"
+                 src="../svg/Frame 43.svg"
+                 alt="Highlight 3"
+                 style="max-width: 80%; height: auto;" />
+            <p class="mt-2 mb-5 text-dark font-weight-bold">Display of latest technology</p>
+          </div>
+        
+        </div>
+      </div>
+
+      <div style="font-family: 'Poppins', sans-serif;" class="container mt-5 mw-100 ml-nav">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <h2 class="font-weight-bold text-dark  line-height-5 ht ">Rewards</h2>
+          </div>
+          <style>
+            .line-height-2 {
+              line-height: 2.0;
+              font-size: 18px;
+            }
+          </style>
+          <div class="col-md-6 mb-5 text-dark  font-weight-bolder line-height-2 p-sm-1 pl-lg-3">
+            <ul class="list-unstyled txt">
+              <li class="d-flex align-items-center mb-3">
+                <i class="fas fa-check-circle mr-3" style="color: #58c7dc;"></i>
+                <span>Valuables insights into effective growth strategies</span>
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <i class="fas fa-check-circle mr-3" style="color: #58c7dc;"></i>
+                <span>Knowledge about sustainable business practices</span>
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <i class="fas fa-check-circle mr-3" style="color: #58c7dc;"></i>
+                <span>Solutions for innovative financing</span>
+              </li>
+              <li class="d-flex align-items-center mb-3">
+                <i class="fas fa-check-circle mr-3" style="color: #58c7dc;"></i>
+                <span>Access to critical resources</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div style="font-family: 'Poppins', sans-serif;" class="container-fluid p-0 position-relative">
+        <div class="row no-gutters">
+          <div class="col-12 position-relative">
+            <img
+              class="img-fluid object-fit-cover w-100 h-389"
+              src="../images/section-1.png"
+              alt="Full Width Image"
+            />
+  
+            <div
+              class="position-absolute w-100 h-100 d-flex justify-content-center align-items-center text-center fs-8"
+              style="top: 0; left: 0; z-index: 1"
+            >
+              <h1 class="text-white p-20 br-10 fw-bold teth" style="font-family: 'Poppins', sans-serif;">
+                Join SME Connect'25 to unlock <br />unparalleled opportunities for
+                growth,<br />
+                innovation, and market expansion.
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="container-fluid d-flex flex-column align-items-center justify-content-center footer">
+        <div class="text-left mb-5 tx-sec mt-5">
+      <div class="col-md-4 text-lg-left w-100" style="color:#929292">
+          <h3><strong style="color:#58c7dc">SME</strong><span>CONNECT</span></h3>
+          <p style="font-size: 24px;">
+              Karnataka is dedicated to fostering a thriving business environment. SMEConnect supports this vision by addressing key challenges faced by SMEs and acting as a central platform to drive their growth.
+          </p>
+      </div>
+      </div>
+  
+      <div class="text-right mb-5 tx-sec mt-5">
+      <div class="col-md-4 text-lg-right text-sm-right ml-auto w-100" style="font-family: 'Poppins', sans-serif; color:#929292">
+          <p style="font-size: 14px;">
+            <span class="font-weight-bold fs-6">  Contact Us </span><br />
+            Address: 1234 Imaginary Lane <br />Suite 5678, Fake town, XY
+            89012, India
+          </p>
+          <p>Phone: (555) 123-4567 <br />Email: contact@fakemail.com</p>
+        </div>
+      </div>
+  </footer>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
