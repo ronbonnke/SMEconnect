@@ -4,7 +4,6 @@ body{
 }
 
 .container {
-    margin-top: -220px;
     margin-bottom: 37px;
 }
 h1{
@@ -40,6 +39,9 @@ a {
 }
 p{
     font-size: 16px;
+}
+.tx-cr{
+    color: #000;
 }
 .navbar-custom {
     background-color: white;
@@ -198,8 +200,8 @@ p{
 .grid-item {
     transition: background-color 0.3s ease;
     /* height: 463px; */
-    width: 367px;
-    padding-top: 20px;
+    width: 360px;
+    padding-top: 45px;
 }
 .gap-slider{
     gap: 20px;
@@ -217,9 +219,9 @@ p{
     font-weight: 600;
 }
 .tx-sec{
-    width: 61.9%;
-    margin-bottom: 9em;
-    margin-top: 0;
+    width: 78.9%;
+    /* margin-bottom: 9em; */
+    /* margin-top: 0; */
 }
 
 
@@ -262,9 +264,9 @@ p{
     top: -53px;
     left: 220px;
 }
-.slide-cont{
-    height: 572px ;
-    width: 1200px ;
+.slide-cont {
+    height: 572px;
+    width: 76%;
 }
 
 .icon {
@@ -343,24 +345,27 @@ p{
       width: 75px;
       height: 109px;
     }
-    .p-3 {
-        padding: 8rem!important;
+
+    .mx-3 {
+        margin-left: 8.5rem !important;
+        margin-right: 8.5rem !important;
+        margin-top: 10%;
     }
+
 .footer {
     background-color:#2e2e2e ;
 }
 
-/* 
-          body {
-              background-color: #f0f0f0;
-          } */
-
-          .glass-grid {
-            backdrop-filter: blur(3px);
+.p-w {
+    width: 36%;
+}
+        /* grid */
+        .glass-grid {
+            backdrop-filter: blur(5px);
             border: 2px solid white;
             border-radius: 50px;
-            padding: 20px;
-            margin: 20px;
+            padding: 40px;
+            margin: 25px;
             text-align: -webkit-center;
         }
             .glass-image {
@@ -379,164 +384,24 @@ p{
                 align-items: center;
                 justify-content: center;
             }
-@media (max-width:1000px) {
-
-    .tx-sec {
-        width: 81.9%;
-        margin-bottom: 9em;
-        margin-top: 0;
+            
+    .slide {
+    overflow: hidden;
+    width: 100%;
     }
-    .carousel-item img {
-        height: 50%;
-        width: 50%;
-        object-fit: cover;
-    }
-    .cus-nav {
-    margin-left: 20px;
-    margin-right: 20px;
-    }
-    .text-adjust {
-        position: absolute;
-        top: 40px;
-        left: 10%;
-        transform: translate(-10%, -30%);
-    }
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background: rgba(0, 0, 0, 0.5); 
-        display: flex;
-        align-items: center;
-        justify-content: flex-start; 
-    }
-
-    .last img{
-        height: auto;
-        width: auto;
-        object-fit: cover;
-        filter: grayscale(0%);
-}
-.carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 15%;
-    z-index: 2;
-    padding: 0;
-    margin-bottom: 1.5rem;
-}
-    .carousel-indicators [data-bs-target] {
-        box-sizing: content-box;
-        flex: 0 1 auto;
-        width: 9px;
-        height: 2px;
-        padding: 0;
-        text-indent: -999px;
-        cursor: pointer;
-        background-color: rgba(255, 255, 255, 0.2);
-        background-clip: padding-box;
-        opacity: .5;
-        transition: opacity .6s ease;
-        border-radius: 12px;
-        border: 1px solid white;
-    }
-    .ban-hd h1{
-        font-family: Poppins;
-        font-size: 18px;
-        font-weight: 300;
-        width: 35%;
-        line-height: 15.5px;
-        text-align: left;
-    }
-    .icon-circle {
-        width: 100px;
-        height: 100px;
-        background-color: #2e2e2e;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 0 0 20px #BCBEC0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    /* .slide-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: -15%;
-        z-index: 5;
-        position: relative;
-        background: white;
-        padding: 32px;
-        border-radius: 50px;
-        min-height: 300px;
-    } */
-    .slide-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: -15%;
-        z-index: 5;
-        position: relative;
-        background: white;
-        padding: 32px;
-        border-radius: 50px;
-        height: 350px;
-        width: 275px;
-        margin: auto;
-    }
-   
-    .carousel-item .col-md-4 {
-        flex: 0 0 100%; /* Make each column take full width */
-        max-width: 100%; /* Ensure columns are full width */
-        margin-bottom: 15px; /* Add space between items */
-    }
-    .carousel-item .bg-white {
-        height: auto; /* Adjust height to fit content */
-        padding: 20px; /* Add some padding */
-    }
-    .row>* {
-        flex-shrink: 0;
-        width: 100%;
-        padding-right: calc(var(--bs-gutter-x) * .5);
-        padding-left: calc(var(--bs-gutter-x) * .5);
-        margin-top: var(--bs-gutter-y);
-    }
-    .text-container {
-        color: white;
-        width: 100%;
-        padding-left: 30px;
-        text-align: left;
-        line-height: 0;
-    }
-    .text-container h1 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 13px;
-    }
-}
-
-.slide {
-    overflow: hidden; /* Ensures that any overflow content is hidden */
-    width: 100%; /* Make the slide take the full width */
-}
 .d-flex {
-    display: flex; /* Set display to flex */
-    flex-wrap: nowrap; /* Prevent wrapping of flex items */
-    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
+
 
 .grid-item {
     flex: 0 0 auto;
     max-width: 100%;
-    margin-right: 15px; /* Add some spacing between items */
-    position: relative; /* Set position relative for positioning content */
+    margin: auto;
+    position: relative;
 }
-
 
 /* Custom styles for icon circle */
 .icon-circle {
@@ -547,17 +412,176 @@ p{
 }
 
 /* Adjust the margin-top of slide content */
+
+
 .slide-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -15%; /* Moves the content upwards */
-    z-index: 5; /* Lower z-index than icon circle to ensure it appears underneath */
-    position: relative; /* Position relative to maintain proper alignment */
-    background: white; /* Optional: background color to avoid overlap */
-    padding: 32px; /* Add some padding */
+    margin-top: -15%;
+    z-index: 5;
+    position: relative;
+    background: white;
+    padding: 32px;
     border-radius: 50px;
     min-height: 380px;
+    color: black;
 }
+    
+
+
+    /* Style for the grid items to use number images as background */
+    .grid-item {
+        background-size:20%;
+        background-repeat: no-repeat;
+        background-position: top;
+        border-radius: 10px;
+        /* padding-top: 69px; */
+        position: relative;
+    }
+
+    @media (max-width:1000px) {
+    
+    
+        .tx-sec {
+            width: 81.9%;
+            /* margin-bottom: 9em; */
+            margin-top: 0;
+        }
+        .carousel-item img {
+            height: 50%;
+            width: 50%;
+            object-fit: cover;
+        }
+        .cus-nav {
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+        .p-w {
+            width: 104%;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5); 
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; 
+        }
+    
+        .last img{
+            height: auto;
+            width: auto;
+            object-fit: cover;
+            filter: grayscale(0%);
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 15%;
+        z-index: 2;
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+        .carousel-indicators [data-bs-target] {
+            box-sizing: content-box;
+            flex: 0 1 auto;
+            width: 9px;
+            height: 2px;
+            padding: 0;
+            text-indent: -999px;
+            cursor: pointer;
+            background-color: rgba(255, 255, 255, 0.2);
+            background-clip: padding-box;
+            opacity: .5;
+            transition: opacity .6s ease;
+            border-radius: 12px;
+            border: 1px solid white;
+        }
+
+        .ban-hd h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            font-weight: 200;
+            width: 100%;
+            line-height: 19.5px;
+            text-align: left;
+        }
+                
+        .text-adjust {
+            position: absolute;
+            top: 70px;
+            left: 7%;
+            transform: translate(-10%, -30%);
+        }
+        .icon-circle {
+            width: 100px;
+            height: 100px;
+            background-color: #2e2e2e;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 0 20px #BCBEC0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+     
+    
+        .slide-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -15%;
+            z-index: 5;
+            position: relative;
+            background: white;
+            padding: 32px;
+            border-radius: 50px;
+            height: 350px;
+            width: 275px;
+            margin: auto;
+        }
+
+        .carousel-item .col-md-4 {
+            flex: 0 0 100%; /* Make each column take full width */
+            max-width: 100%; /* Ensure columns are full width */
+            margin-bottom: 15px; /* Add space between items */
+        }
+        .carousel-item .bg-white {
+            height: auto; /* Adjust height to fit content */
+            padding: 20px; /* Add some padding */
+        }
+        .flex-col {
+            flex-direction: column; /* Stack images vertically */
+          }
+          .mx-3 {
+            margin-left: 8.5rem !important;
+            margin-right: 8.5rem !important;
+            margin-top: 50%;
+        }
+        /* Mobile View - Stacking Grids Vertically */
+          .row {
+            flex-direction: column; /* Stack grids vertically */
+            overflow-x: hidden;
+          }
+          .grid-item {
+            margin-bottom: 1.5rem; /* Add margin between stacked items */
+            width: 100%;
+            transition: background-color 0.3s ease;
+            width: 360px;
+            padding-top: 55px;
+        }
+          /* .slide-cont{
+              height: 572px ;
+              width: 1200px ;
+          } */
+    }
+
 
