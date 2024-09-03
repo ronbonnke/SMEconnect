@@ -1,6 +1,15 @@
 html {
     scroll-behavior: smoooth;
   }
+  .row {
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
     .highlight-container {
     display: flex;
     justify-content: space-between;
@@ -196,8 +205,8 @@ html {
     font-size: 16px;
   }
   .txt {
-    font-size: 10px;
-  }
+    font-size: 14px;
+}
 
   .rec{
   right: 0;
