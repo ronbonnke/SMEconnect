@@ -207,6 +207,11 @@ p{
     gap: 20px;
 }
 
+.anima{
+    transform: translateX(0%); transition: transform 0.5s;
+
+}
+
 .grid-item:hover {
     /* background-color: white; */
     border: none;
@@ -329,7 +334,7 @@ p{
 }
 
 .dotted {
-    border-top: 3px dashed black;
+    border-top: 1.5px dashed black;
     margin: 15px 0;
   }
 
@@ -384,7 +389,6 @@ p{
                 align-items: center;
                 justify-content: center;
             }
-            
     .slide {
     overflow: hidden;
     width: 100%;
@@ -428,22 +432,45 @@ p{
     min-height: 380px;
     color: black;
 }
-    
 
-
+.grid-item-glass {
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 10px;
+    position: relative;
+    padding: 0;
+}
     /* Style for the grid items to use number images as background */
     .grid-item {
         background-size:20%;
         background-repeat: no-repeat;
         background-position: top;
         border-radius: 10px;
-        /* padding-top: 69px; */
         position: relative;
+        padding: 20px;
+    }
+    .gap-slider {
+        gap: 20px;
+    }
+    .slide-cont {
+        height: 572px;
+        width: 76%;
+    }
+    .slide {
+        overflow: hidden;
+        width: 100%;
     }
 
-    @media (max-width:1000px) {
-    
-    
+@media (max-width:1000px) {
+        .gap-slider {
+                transition: transform 0.5s ease;
+            }
+            .slide-content {
+                height: 350px;
+                width: 275px;
+                margin: auto;
+            }
         .tx-sec {
             width: 81.9%;
             /* margin-bottom: 9em; */
