@@ -3,9 +3,7 @@ body{
     background-color: whitesmoke;
 }
 
-.container {
-    margin-bottom: 37px;
-}
+
 h1{
     font-family: 'poppins', sans-serif;
 }
@@ -501,11 +499,14 @@ p{
 }
 
 /* Custom Styles for Navigation Buttons */
+.G-line {
+    position: relative;
+    display: flex;
+}
 #prev, #next {
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 50%;
     transform: translateY(-22px);
     background-color: #2e2e2e;
     border: none;
@@ -520,9 +521,9 @@ p{
   #prev, #next {
     width: 30px;
     height: 30px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(1341px);
+    position: relative;
+    top: 11px;
+    /* transform: translateY(1341px); */
     background-color: #2e2e2e;
     border: none;
     color: white;
@@ -534,17 +535,14 @@ p{
     cursor: pointer;
 }
 
-  #prev {
-    left: 175px;
-  }
-  #next {
-    right: 175px;
-  }
-
-  /* Hover effect */
   #prev:hover, #next:hover {
     background-color: #333;
   }
+
+  .text-decoration-none {
+    text-decoration: none!important;
+    color: #929292;
+}
 
 @media (max-width:1000px) {
         .gap-slider {
