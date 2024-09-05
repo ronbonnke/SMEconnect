@@ -16,14 +16,26 @@ h3{
     margin-left: 150px;
     margin-right: 150px;
 }
-.logo {
-    padding: 26px;
-    background-color: white;
-}
-.login{
+
+.login {
     background-color: #58c7dc;
-        color: white;
-        border: none;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.register {
+    background-color: #414042;
+    color: white;
+    border: none;
+    margin: 7px;
+    font-size: 16px;
+}
+.btn-group-sm>.btn, .btn-sm {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 0.9rem;
+    --bs-btn-font-size: 0.875rem;
+    --bs-btn-border-radius: var(--bs-border-radius-sm);
 }
 .Roger{
     background-color: white;
@@ -43,7 +55,7 @@ p{
 }
 .navbar-custom {
     background-color: white;
-    padding: 10px 20px;
+    padding: 20px 0px 20px;
 }
 
 .pill-container {
@@ -51,12 +63,6 @@ p{
     padding: 0px 2px 0px 10px;
 }
 
-.register {
-    background-color: #414042;
-    color: white;
-    border: none;
-    margin-left: 10px;
-}
 .navbar-brand {
     margin-right: auto;
 }
@@ -169,8 +175,8 @@ p{
 }
 .text-container {
     color: white;
-    width: 44%; /* Adjust width of text container */
-    padding-left: 30px; /* Move text further to the left */
+    width: 44%;
+    padding-left: 150px;
     text-align: left;
     line-height: 1.4;
 }
@@ -178,7 +184,7 @@ p{
 .text-container h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem; /* Adjust font size */
-    font-size: 52px;
+    font-size: 54px;
 
 }
 
@@ -191,8 +197,6 @@ p{
 .text-adjust {
     position: absolute;
     top: 200px;
-    left: 10%;
-    transform: translate(-10%, -30%);
 }
 
 .grid-item {
@@ -545,6 +549,13 @@ p{
 }
 
 @media (max-width:1000px) {
+    .text-container {
+        color: white;
+        width: 44%;
+        padding-left: 30px;
+        text-align: left;
+        line-height: 1.4;
+    }
         .gap-slider {
                 transition: transform 0.5s ease;
             }
