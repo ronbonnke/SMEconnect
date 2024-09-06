@@ -544,7 +544,6 @@ p{
     height: 30px;
     position: relative;
     top: 11px;
-    /* transform: translateY(1341px); */
     background-color: #2e2e2e;
     border: none;
     color: white;
@@ -575,7 +574,7 @@ p{
         font-size: 14px;
     }
     .fon-si{
-        font-size: 12px;
+        font-size: 11px;
     }
     .txt-fon{
         text-align: justify;
