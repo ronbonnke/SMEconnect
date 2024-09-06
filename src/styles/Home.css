@@ -107,7 +107,7 @@ p{
     width: 30%;
     object-fit: cover;
     filter: grayscale(100%);
-    transition:  0.5s ease-in; /* Adjust the transition duration as needed */
+    transition:  2.5s ease-in; /* Adjust the transition duration as needed */
 }
 
 
@@ -380,6 +380,10 @@ p{
     }
 .footer {
     background-color:#2e2e2e ;
+}
+    .polino-pad {
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .p-w {
     width: 74%;
@@ -749,6 +753,10 @@ p{
         }
         .co-pa {
             padding: 4px 30px 4px 30px;
+        }
+        .polino-pad {
+            padding-left: 30px;
+            padding-right: 15px;
         }
     }
 
