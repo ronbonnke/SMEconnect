@@ -48,7 +48,7 @@ a {
     background-color: transparent;
 }
 p{
-    font-size: 18px;
+    font-size: 16px;
 }
 .tx-cr{
     color: #000;
@@ -107,8 +107,13 @@ p{
     width: 30%;
     object-fit: cover;
     filter: grayscale(100%);
+    transition:  0.5s ease-in; /* Adjust the transition duration as needed */
 }
 
+
+  .carousel-inner {
+    background-color: transparent;
+  }
 
 .carousel-indicators {
     position: absolute;
@@ -120,7 +125,6 @@ p{
     justify-content: start;
     padding: 0;
     margin-bottom: 2rem;
-    /* padding-left: 150px; */
     margin-left: 10%;
 }
 
@@ -377,9 +381,8 @@ p{
 .footer {
     background-color:#2e2e2e ;
 }
-
 .p-w {
-    width: 60%;
+    width: 74%;
 }
         /* grid */
         .glass-grid {
