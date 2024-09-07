@@ -13,7 +13,6 @@ html {
 .ht {
   font-weight: 600;
 }
-
     .highlight-container {
     display: flex;
     justify-content: space-between;
@@ -165,6 +164,10 @@ html {
       -ms-overflow-style: none;
       scrollbar-width: none;
   }
+  .polino-pad {
+    padding-left: 60px;
+    padding-right: 60px;
+}
 
   @media (max-width: 1000px) {
       .slide-content {
@@ -282,4 +285,17 @@ html {
     justify-content: center;
     flex-wrap: wrap;
   }
+  p {
+    font-size: 12px;
+}
+.fon-si{
+  font-size: 12px;
+}
+.p-w {
+  width: 100%;
+  text-align: justify;
+}
+.txt-fon{
+  text-align: justify;
+}
 }
