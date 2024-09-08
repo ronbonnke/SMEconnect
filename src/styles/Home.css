@@ -104,12 +104,14 @@ p{
 
 .carousel-item img {
     height: 100%;
-    width: 30%;
     object-fit: cover;
     filter: grayscale(100%);
-    transition:  2.5s ease-in; /* Adjust the transition duration as needed */
+    transition:  2.5s ease-in;
 }
 
+.mlr {
+    margin-right: 120px;
+}
 
   .carousel-inner {
     background-color: transparent;
@@ -628,7 +630,9 @@ p{
         .carousel-item img {
             width: 50%;
             object-fit: cover;
+            padding: auto;
         }
+        
         .cus-nav {
         margin-left: 40px;
         margin-right: 40px;
@@ -660,17 +664,20 @@ p{
             top: 0;
             left: 0;
             width: 100%;
-            background: rgba(0, 0, 0, 0.5); 
+            background: rgba(0, 0, 0, 0.5);
             display: flex;
             align-items: center;
-            justify-content: flex-start; 
+            justify-content: flex-start;
         }
-    
+
         .last img{
             height: auto;
             width: auto;
             object-fit: cover;
             filter: grayscale(0%);
+    }
+    .mlr {
+        margin: 0%;
     }
     .carousel-indicators {
         position: absolute;
@@ -723,8 +730,7 @@ p{
             margin-left: auto;
             margin-right: auto;
         }
-     
-    
+
         .slide-content {
             display: flex;
             flex-direction: column;

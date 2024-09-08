@@ -265,12 +265,19 @@ html {
   padding-left: 10px !important;
   padding-right: 10px !important;
   }
-  .ht {
+  .ht-hg {
     padding-top: 150px;
     margin-top: 140px;
-    text-align: center;
-    font-weight: 600;
 }
+.ht {
+  text-align: center;
+  font-weight: 600;
+}
+
+.rew-mg {
+    margin: 30px;
+}
+
   .container-img{
   position: relative;
   height: 100px;
