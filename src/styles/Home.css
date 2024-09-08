@@ -252,7 +252,11 @@ p{
 }
 
 .co-pa {
-    padding: 40px 150px 40px 150px;
+    /* padding: 40px 150px 40px 150px; */
+}
+.pad-rl{
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .icon i {
@@ -576,7 +580,22 @@ p{
 .txt-fon{
     text-align: right;
 }
+.gap-cls{
+    gap: 120px;
+}
+.bene-p {
+    flex: 0 0 auto;
+    width: 45%;
+}
 @media (max-width:1000px) {
+    .bene-p{
+        flex: 0 0 auto;
+        width:100%;
+    }
+    .pad-rl{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     p {
         font-size: 14px;
     }
