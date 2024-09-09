@@ -453,7 +453,7 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -15%;
+    margin-top: -22%;
     z-index: 5;
     position: relative;
     background: white;
@@ -479,7 +479,7 @@ p{
         background-position: top;
         border-radius: 10px;
         position: relative;
-        padding: 20px;
+        padding: 30px;
     }
     .gap-slider {
         gap: 30px;
@@ -718,7 +718,7 @@ p{
             left: 7%;
             transform: translate(-10%, -30%);
         }
-        .icon-circle {
+        /* .icon-circle {
             width: 100px;
             height: 100px;
             background-color: #2e2e2e;
@@ -729,7 +729,7 @@ p{
             box-shadow: 0 0 0 20px #BCBEC0;
             margin-left: auto;
             margin-right: auto;
-        }
+        } */
 
         .slide-content {
             display: flex;
@@ -745,6 +745,19 @@ p{
             height: 350px;
             width: 275px;
             margin: auto;
+        }
+        .icon-circle {
+            width: 100px;
+            height: 100px;
+            background-color: #2e2e2e;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 0 20px #BCBEC0;
+            margin-left: auto;
+            margin-right: auto;
+            top: 45px;
         }
 
         .carousel-item .col-md-4 {
@@ -774,7 +787,7 @@ p{
             width: 100%;
             transition: background-color 0.3s ease;
             width: 360px;
-            padding-top: 55px;
+            padding-top: 20px;
         }
         .co-pa {
             padding: 4px 30px 4px 30px;
