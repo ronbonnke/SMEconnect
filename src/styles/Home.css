@@ -18,7 +18,8 @@ h3{
 }
 
 .login {
-    background-color: #58c7dc;
+    background-color: #F42535;
+    ;
     color: white;
     border: none;
     font-size: 16px;
@@ -105,7 +106,6 @@ p{
 .carousel-item img {
     height: 100%;
     object-fit: cover;
-    filter: grayscale(100%);
     transition:  2.5s ease-in;
 }
 
@@ -161,7 +161,6 @@ p{
     align-items: left;
     justify-content: flex-start;
     padding: 20px;
-    filter: grayscale(0%);
 }
 .last {
     background-color: #142745;
@@ -170,7 +169,6 @@ p{
         height: auto;
         width: auto;
         object-fit: cover;
-        filter: grayscale(0%);
 }
 
 .darky{
@@ -283,7 +281,8 @@ p{
 }
 .icon-bg{
     padding: 20px;
-    background-color: #58c7dc;
+    background-color: #F42535;
+    ;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -470,7 +469,7 @@ p{
     border-radius: 10px;
     position: relative;
     padding: 0;
-    padding-top: 60px;
+    padding-top: 56px;
 }
     /* Style for the grid items to use number images as background */
     .grid-item {
@@ -674,7 +673,6 @@ p{
             height: auto;
             width: auto;
             object-fit: cover;
-            filter: grayscale(0%);
     }
     .mlr {
         margin: 0%;
@@ -761,9 +759,9 @@ p{
         }
 
         .carousel-item .col-md-4 {
-            flex: 0 0 100%; /* Make each column take full width */
-            max-width: 100%; /* Ensure columns are full width */
-            margin-bottom: 15px; /* Add space between items */
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-bottom: 15px;
         }
         .carousel-item .bg-white {
             height: auto; /* Adjust height to fit content */
