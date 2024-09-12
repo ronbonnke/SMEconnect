@@ -393,12 +393,11 @@ p{
 .p-w {
     width: 74%;
 }
-        /* grid */
         .glass-grid {
             backdrop-filter: blur(5px);
             border: 2px solid white;
             border-radius: 50px;
-            padding: 35px;
+            padding: 34px;
             margin: 5px;
             text-align: -webkit-center;
         }
@@ -418,6 +417,9 @@ p{
                 align-items: center;
                 justify-content: center;
             }
+            .img-wrap:hover {
+    background-color: #F42535; /* Change background color on hover */
+}
     .slide {
     overflow: hidden;
     width: 100%;
@@ -588,6 +590,101 @@ p{
     flex: 0 0 auto;
     width: 45%;
 }
+
+.grid-item-glass {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .grid-item-glass:hover {
+    transform: scale(0.95);
+  }
+  
+  .grid-item-glass .glass-container {
+    transition: transform 0.3s ease;
+  }
+  
+  .grid-item-glass:hover .glass-container {
+    transform: scale(0.8);
+  }
+  
+  .img-wrap {
+    position: relative;
+  }
+
+  .grid-item-glass:hover .hover-image {
+    display: block;
+  }
+  
+  .grid-item-glass:hover .normal-image {
+    display: none;
+  }
+
+
+
+  /* Style for the grid item container */
+.grid-item-glass {
+    position: relative; /* Make it relative to control hover effects */
+    overflow: hidden; /* Prevent any overflow */
+    transition: all 0.3s ease; /* Smooth transition for the entire grid */
+}
+
+/* Background color change on hover */
+.grid-item-glass:hover .img-wrap {
+    background-color: #F42535; /* Change the background color of the circle */
+}
+
+/* Image wrapper styling */
+.img-wrap {
+    background-color: white; /* Default background color */
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Make positioning relative to handle image layering */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Common styles for both images to ensure they are the same size */
+.glass-image {
+    max-width: 100%; /* Ensure images fit the container */
+    max-height: 100%; /* Maintain image aspect ratio */
+    width: auto;
+    height: auto;
+    transition: opacity 0.3s ease; /* Smooth transition for fading */
+    position: absolute; /* Positioned absolutely to overlap */
+    z-index: 1;
+}
+
+/* Normal image is visible by default */
+.normal-image {
+    display: block;
+}
+
+/* Hover image is hidden by default */
+.hover-image {
+    display: none;
+}
+
+/* On hover of the entire grid, show the hover image and hide the normal image */
+.grid-item-glass:hover .normal-image {
+    display: none; /* Hide normal image */
+}
+
+.grid-item-glass:hover .hover-image {
+    display: block; /* Show hover image */
+}
+.img-wrap .hover-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    height: auto;
+    align-items: center;
+}
+
 @media (max-width:1000px) {
     .bene-p{
         flex: 0 0 auto;
