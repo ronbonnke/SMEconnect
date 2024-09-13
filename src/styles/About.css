@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smoooth;
   }
+  body{
+    background-color: whitesmoke;
+  }
   .row {
     --bs-gutter-x: 0rem;
     --bs-gutter-y: 0;
@@ -11,7 +14,7 @@ html {
     margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 .ht {
-  font-weight: 600;
+  font-weight: 500;
 }
     .highlight-container {
     display: flex;
@@ -60,7 +63,7 @@ html {
   .highlight-card p {
     font-family: "Poppins", sans-serif;
     margin-top: 10px;
-    font-weight: 600;
+    font-weight: 500;
     z-index: 2;
 }
   .position-absolute {
@@ -72,7 +75,7 @@ html {
   height: 598px;
   }
   
-  .mo {
+  /* .mo {
   position: absolute;
   left: 449px;
   top: 34px;
@@ -81,8 +84,19 @@ html {
   height: 530px;
   width: 790px;
   border: 3px solid white;
-  }
+  } */
   
+  .mo {
+    position: absolute;
+    left: 315px;
+    top: 34px;
+    z-index: 1;
+    border-radius: 45px;
+    height: 558px;
+    /* width: 790px; */
+    border: 3px solid white;
+}
+
   .pad {
   padding: 117px 119px 117px 196px;
   font-family: 'Poppins', sans-serif;
@@ -94,11 +108,14 @@ html {
   padding-left: 150px !important;
   padding-right: 150px !important;
   }
+  .ml-high{
+  padding-left: 150px !important;
+  }
   
   #second-container{
   top: 78px;
-  left: 150px;
-  width: 392.22px;
+  /* left: 150px; */
+  width: 425px;
   }
   .h-30{
   height: 30px;
@@ -168,16 +185,16 @@ html {
     padding-left: 60px;
     padding-right: 60px;
 }
-
-  @media (max-width: 1000px) {
-      .slide-content {
-          height: auto;
-          min-height: 200px;
-      }
+@media (min-width: 2560px) {
+  .h1, h1 {
+    font-size: 3.5rem;
   }
-
+}
   @media (max-width: 1000px) {
-
+    .slide-content {
+        height: auto;
+        min-height: 200px;
+    }
       .mol-ko {
               z-index: 1;
               border-radius: 45px;
@@ -271,7 +288,7 @@ html {
 }
 .ht {
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .rew-mg {
