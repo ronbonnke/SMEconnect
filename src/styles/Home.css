@@ -670,13 +670,31 @@ p {
   width: 165%;
   font-weight: 500;
 }
+.wi-fir {
+  width: 23%;
+}
+.wi-sec {
+  line-height: 67.5px;
+  font-size: 4rem;
+  width: 165%;
+  font-weight: 500;
+}
 @media (max-width: 1000px) {
+  .wi-sec{
+    line-height: 24.5px;
+    font-size: 1.2rem;
+    width: 165%;
+    font-weight: 500;
+}
+  .wi-fir {
+    width: 45%;
+  }
   .glass-width {
     width: 80% !important;
   }
 
   .pica {
-  line-height: 16.5px;
+  line-height: 24.5px;
   font-size: 1.1rem;
   font-weight: 500;
 }
@@ -740,7 +758,7 @@ p {
     margin: auto;
   }
   .tx-sec {
-    width: 69%;
+    width: 85%;
     margin-top: 0;
   }
   .carousel-item img {
@@ -818,8 +836,8 @@ p {
   .ban-hd h1 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
-    font-weight: 200;
-    width: 100%;
+    font-weight: 500;
+    /* width: 100%; */
     line-height: 19.5px;
     text-align: left;
   }

@@ -185,12 +185,28 @@ html {
     padding-left: 60px;
     padding-right: 60px;
 }
+.fobo-mr{
+  margin-top: 4.5rem;
+}
+.justi-cen{
+  justify-content: end;
+}
 @media (min-width: 2560px) {
   .h1, h1 {
     font-size: 3.5rem;
   }
 }
   @media (max-width: 1000px) {
+    .justi-cen{
+      justify-content: center;
+    }
+    .fobo-mr {
+      margin-top: 0.2rem;
+      justify-content: center;
+  }
+    .fo-pho{
+      margin: auto;
+  }
     .slide-content {
         height: auto;
         min-height: 200px;
@@ -317,9 +333,9 @@ html {
 }
 .p-w {
   width: 100%;
-  text-align: justify;
+  text-align: center;
 }
 .txt-fon{
-  text-align: justify;
+  text-align: center;
 }
 }
