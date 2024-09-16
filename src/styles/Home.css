@@ -7,7 +7,7 @@ h1 {
   font-family: "poppins", sans-serif;
 }
 h3 {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   font-size: 24px !important;
 }
 .pb-5 {
@@ -113,7 +113,7 @@ p {
 }
 
 .carousel-item img {
-  height: 95vh;
+  /* height: 95vh; */
   object-fit: cover;
   transition: 2.5s ease-in;
 }
@@ -213,6 +213,7 @@ p {
     width: 100%;
 }
 
+
 .grid-item {
   transition: background-color 0.3s ease;
   width: 360px;
@@ -232,7 +233,7 @@ p {
   border: none;
 }
 .mb-5 {
-  margin-bottom: 8em !important ;
+  margin-bottom: 5em !important ;
 }
 .cus-h5 {
   margin-top: 62px;
@@ -240,7 +241,7 @@ p {
 }
 
 .txt-wd {
-  width: 42%;
+  width: 65%;
 }
 .me-3 {
   margin-right: 4rem !important;
@@ -330,7 +331,7 @@ p {
 }
 
 .fw-bold {
-  font-weight: 400 !important;
+  font-weight: 600 !important;
 }
 
 .row > * {
@@ -359,7 +360,7 @@ p {
 }
 
 .mx-2 {
-  margin-right: 1.5rem !important;
+  margin-right: 1.2rem !important;
 }
 .mx-3 {
   margin-left: 8.5rem !important;
@@ -379,8 +380,8 @@ p {
 }
 
 .glass-grid {
-  backdrop-filter: blur(5px);
-  border: 1px solid white;
+  backdrop-filter: blur(8px);
+  border: 1.5px solid white;
   border-radius: 50px;
   padding: 60px;
   height: 444px;
@@ -407,6 +408,7 @@ p {
 .img-wrap:hover {
   background-color: #f42535;
 }
+
 .slide {
   overflow: hidden;
   width: 100%;
@@ -650,8 +652,51 @@ p {
 .img-wrap .hover-image {
   align-items: center;
 }
-
+.justi-cen{
+  justify-content: end;
+}
+.foobotto{
+  margin-bottom: 5rem;
+}
+.fobo-mr{
+  margin-top: 4.5rem;
+}
+.glass-width {
+  width: 100%;
+}
+.pica {
+  line-height: 85.5px;
+  font-size: 1.2em;
+  width: 165%;
+  font-weight: 500;
+}
 @media (max-width: 1000px) {
+  .glass-width {
+    width: 80% !important;
+  }
+
+  .pica {
+  line-height: 16.5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+  .mx-2 {
+    margin: 1.2rem !important;
+  }
+  .fobo-mr {
+    margin-top: 0.2rem;
+    justify-content: center;
+}
+.foobotto{
+  margin-bottom: 3.5rem;
+}
+  .fo-pho{
+      margin: auto;
+  }
+  .col-md-6.d-flex.flex-column.mt-5 {
+    width: 100%;
+}
   .bene-p {
     flex: 0 0 auto;
     width: 100%;
@@ -667,12 +712,21 @@ p {
     font-size: 11px;
   }
   .txt-fon {
-    text-align: justify;
+    text-align: center;
   }
 
+.col-md-6.d-flex.flex-lg-column.flex-md-row.text-lg-right.pt-3 {
+    justify-content: center;
+}
+.col-md-6.d-flex.flex-lg-column.flex-md-row.text-lg-right.mt-5 {
+  justify-content: center;
+}
+.justi-cen{
+  justify-content: center;
+}
   .text-container {
     color: white;
-    width: 44%;
+    width: 55%;
     padding-left: 30px;
     text-align: left;
     line-height: 1.4;
@@ -686,7 +740,7 @@ p {
     margin: auto;
   }
   .tx-sec {
-    width: 81.9%;
+    width: 69%;
     margin-top: 0;
   }
   .carousel-item img {
@@ -694,6 +748,10 @@ p {
     object-fit: cover;
     padding: auto;
   }
+  .carousel-item img {
+    object-fit: cover;
+    transition: 2.5s ease-in;
+}
 
   .cus-nav {
     margin-left: 40px;
@@ -701,7 +759,10 @@ p {
   }
   .p-w {
     width: 100%;
-    text-align: justify;
+    text-align: center;
+  }
+  .txt-alg{
+    text-align: center;
   }
   .glass-grid {
     backdrop-filter: blur(5px);
@@ -719,6 +780,7 @@ p {
     position: relative;
     padding: 0;
     padding-top: 35px;
+    width: 100%;
   }
 
   .last img {
@@ -834,7 +896,14 @@ p {
     padding-left: 30px;
     padding-right: 15px;
   }
+  .txt-wd {
+    width: 88%;
 }
+}
+
+
+
+
 @media (min-width: 2560px) {
   .carousel-indicators {
     list-style-type: none;
@@ -852,4 +921,7 @@ p {
   .tx-sec {
     width: 40%;
   }
+  .txt-wd {
+    width: 45%;
+}
 }
