@@ -63,8 +63,9 @@ html {
   .highlight-card p {
     font-family: "Poppins", sans-serif;
     margin-top: 10px;
-    font-weight: 500;
+    font-weight: 600 !important;
     z-index: 2;
+    font-size: 1.1rem;
 }
   .position-absolute {
   position: absolute;
@@ -100,7 +101,7 @@ html {
   .pad {
   padding: 117px 119px 117px 196px;
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   }
   
   
@@ -137,7 +138,7 @@ html {
       scroll-snap-align: start;
   }
   .mt-5 {
-    margin-top: 8rem!important;
+    margin-top: 4rem!important;
 }
   .grid-item {
       position: relative;
@@ -218,14 +219,7 @@ html {
               width: 60%;
               border: 3px solid white;
       }
-      .mo {
-        left: 65px;
-        top: 378px;
-        height: 397px;
-        width: 309px !important;
-        border-radius: 30px;
-        border: 2px solid white;
-    }
+
       .po-ko {
           font-family: 'Poppins', sans-serif;
           font-size: 16px;
@@ -245,9 +239,10 @@ html {
   .teth{
     margin-top: 10px;
     font-size: 16px;
+    font-weight: 500 !important;
   }
   .txt {
-    font-size: 14px;
+    font-size: 16px;
 }
 
   .rec{
@@ -277,20 +272,17 @@ html {
   }
 
 .mo {
-  left: 65px;
-  top: 390px;
-  height: 425px;
+  left: 13%;
+  top: 378px;
+  height: 397px;
   width: 309px !important;
   border-radius: 30px;
   border: 2px solid white;
 }
-  .pad {
-  padding: 10px;
-  height: auto;
-  width: 300px;
-  font-size: 14px;
-
-  }
+.pad {
+  padding: 22px;
+  font-size: 13px;
+}
   .pad span {
   font-size: 16px;
   }
