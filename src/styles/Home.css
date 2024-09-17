@@ -209,10 +209,10 @@ p {
 
 .text-adjust {
     position: absolute;
-    top: 5%;
-    width: 100%;
+    top: 15%;
+    width: 23%;
+    left: 10.5%;
 }
-
 
 .grid-item {
   transition: background-color 0.3s ease;
@@ -237,7 +237,7 @@ p {
 }
 .cus-h5 {
   margin-top: 62px;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .txt-wd {
@@ -671,7 +671,7 @@ p {
   font-weight: 500;
 }
 .wi-fir {
-  width: 23%;
+  width: 35%;
 }
 .wi-sec {
   line-height: 67.5px;
@@ -941,5 +941,10 @@ p {
   }
   .txt-wd {
     width: 45%;
+}
+.text-adjust {
+  position: absolute;
+  top: 5%;
+  left: auto;
 }
 }
