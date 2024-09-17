@@ -188,7 +188,7 @@ p {
 }
 .text-container-last {
   color: white;
-  width: 80%;
+  width: 85%;
   text-align: left;
   line-height: 1.4;
   display: flex;
@@ -202,16 +202,17 @@ p {
 }
 
 .text-container .btn-light {
-  color: #000; /* Black text for button */
-  background-color: #fff; /* White background for button */
-  border-color: #fff; /* White border for button */
+  color: #000;
+  background-color: #fff; 
+  border-color: #fff; 
 }
 
+
 .text-adjust {
-    position: absolute;
-    top: 15%;
-    width: 23%;
-    left: 10.5%;
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  /* left: 6%; */
 }
 
 .grid-item {
@@ -533,6 +534,12 @@ p {
   z-index: 10;
   cursor: pointer;
 }
+#prev{
+  left: 1%;
+}
+#next{
+  right: 1%;
+}
 
 #prev,
 #next {
@@ -678,6 +685,9 @@ p {
   font-size: 4rem;
   width: 165%;
   font-weight: 500;
+}
+.ban-lef{
+  left: 10.5%;
 }
 @media (max-width: 1000px) {
   .wi-sec{
@@ -842,12 +852,18 @@ p {
     text-align: left;
   }
 
-  .text-adjust {
+  /* .text-adjust {
     position: absolute;
     top: 80px;
     left: 7%;
     transform: translate(-10%, -30%);
-  }
+  } */
+  .text-adjust {
+    position: absolute;
+    top: 80px;
+    left: 15%;
+    transform: translate(-10%, -30%);
+}
 
   .slide-content {
     display: flex;
@@ -945,6 +961,26 @@ p {
 .text-adjust {
   position: absolute;
   top: 5%;
+}
+.ban-lef{
   left: auto;
 }
+}
+
+.progress {
+  border-radius: 0;
+  height: 10px; /* Height of the progress bar */
+  position: relative;
+  overflow: hidden; /* Ensure that the moving line stays within the progress bar */
+}
+.progress::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #000;
+  border-radius: 10px;
+  width: 33%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }

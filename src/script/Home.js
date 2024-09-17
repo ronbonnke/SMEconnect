@@ -64,3 +64,4 @@ $(document).ready(function () {
     $('html, body').animate({ scrollTop: sliderTop }, 800);
   });
 });
+
