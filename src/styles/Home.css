@@ -206,13 +206,13 @@ p {
   background-color: #fff; 
   border-color: #fff; 
 }
-
-
+button.btn.btn-sm.btn-light.rounded-pill:active {
+  background-color: #f42535;
+}
 .text-adjust {
   position: absolute;
   top: 15%;
   width: 100%;
-  /* left: 6%; */
 }
 
 .grid-item {
